@@ -29,7 +29,7 @@ public class HomeServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath()).append(new Date().toString());
+		response.getWriter().append("Served at: ").append(request.getContextPath()).append("Time now is"+new Date().toString());
 	}
 
 	/**
